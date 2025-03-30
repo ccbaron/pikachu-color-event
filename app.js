@@ -9,6 +9,8 @@ document.querySelector('#third').addEventListener('click', updateBgColor);
 // MODIFICAR A PARTIR DE AQUÍ 
 
 function updateBgColor(event) {
+
+    // 1. Obtener el elemento clickeado
     const clickedDiv = event.currentTarget;
     
     // 2. Obtener el color del atributo data-color
